@@ -1,0 +1,20 @@
+.product-img {
+  height: 180px;
+  object-fit: contain;
+  padding: 15px;
+}
+
+.card {
+  max-width: 320px;
+  margin: auto;
+}
+
+.card-title {
+  height: 45px;
+  overflow: hidden;
+}
+
+.card-text {
+  height: 60px;
+  overflow: hidden;
+}

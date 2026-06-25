@@ -1,0 +1,63 @@
+.amazon-navbar {
+    background-color: #131921;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.search-select {
+    width: 70px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-input {
+    border-radius: 0;
+    border: none;
+}
+
+.search-btn {
+    background: #febd69;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    border: none;
+}
+
+.search-btn:hover {
+    background: #f3a847;
+}
+
+.bottom-navbar {
+    background: #232f3e;
+    padding: 10px;
+}
+
+.bottom-navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.bottom-navbar a:hover {
+    color: orange;
+}
+
+@media (max-width:768px){
+
+    .amazon-navbar .container-fluid{
+        flex-direction: column;
+    }
+
+    form{
+        width:100%;
+        margin:10px 0;
+    }
+
+    .bottom-navbar{
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+}
